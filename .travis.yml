@@ -46,5 +46,3 @@ deploy:
     secure: fe6ff2b8faddf7d419331df2218d9b56cbacc093
   file: "${UNITYCI_PROJECT_NAME}_win.tar.gz"
   skip_cleanup: true
-  on:
-    tags: true
