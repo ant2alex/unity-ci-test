@@ -42,7 +42,7 @@ env:
 #  - secure: itkY1knC+GYW+/7AShceWID77OAZ2Na0oGG+PHbjDCCy12EvMgx6TYUhi9mQD/qe5z3lhITWKG4CrvLVCf++ovDX8IKkv0RxUbltEKjbva+fX85OogHFGiZGgqx4fHO1o5+ooHtXR7nLcWkrIP9ojWAVGv5l08NZC/TUa4dy3TWAaEdUcJ704XLx8cUDinxRzyDR4w2i1yXUZ7pWY/vHpufv7+6frX+uSPX7cwxvcPGWQ2GrtDqjIFs/4DMO0OHx4fbRKuERH64wNPCZI5bFkQD/WHvLlGRXTvcMDLUehjj5H8HgfBfxYznfm6St2WnysZgbzcWKhS8ALb16xHixrrzgyTJO2CgMoSt4xTlJsP8js1PNZ1FxfRIH9LKwYu7WoUZRiytt5EnK5lJNP96lIzSa9Z95FCX+vkGnmnb0maXaRURAbOSqNtT1GaWSpK2jozKDceNbDofIFTiIhSgvMYXMJdEAbmYIIK/33YgvPyl/ig5wM7Ud/qeFM/Tm9h+ASDGkoW7BUfT07xj6xoIweTMAkQ2TyaybQZBJAuQOSyDlgtrWhWJJ6TnPqP08w2V0qRh1S4mT3ac3IDsUEHArjmMFnVUD8pR2QJSJ3vLaXPpt+9t/JDifbId4NEjuWlcscmQxunHm1ged2XXMX4bamnoDiKPR+xbyc+n6el9Q+0w=
 deploy:
   provider: releases
-  api_key:
-    secure: fe6ff2b8faddf7d419331df2218d9b56cbacc093
+  user: "ant2alex"
+  password: "test1234"
   file: "${UNITYCI_PROJECT_NAME}_win.tar.gz"
   skip_cleanup: true
