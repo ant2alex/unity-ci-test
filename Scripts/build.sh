@@ -39,4 +39,4 @@ rc1=$?
 echo "Build logs (Windows)"
 cat $(pwd)/unity.log
 
-exit $($rc1)
+exit $rc1
